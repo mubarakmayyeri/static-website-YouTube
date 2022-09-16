@@ -71,9 +71,45 @@
   background-color: rgb(246, 246, 246);
 }
 
+.search-button, .voice-button, .upload-container, .notifications-icon-container, .user-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.search-button .tooltip, .voice-button .tooltip, .upload-container .tooltip, .notifications-icon-container .tooltip{
+  position: absolute;
+  background-color: rgb(128, 128, 128, 0.9);
+  color: white;
+
+  padding-left: 4px;
+  padding-top: 8px;
+  padding-right: 4px;
+  padding-bottom:8px;
+  border-radius: 2px;
+
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip, .voice-button:hover .tooltip,  .upload-container:hover .tooltip, .notifications-icon-container:hover .tooltip{
+  opacity: 1;
+}
+
 .search-icon {
   height: 24px;
-  margin-top: 4px;
 }
 
 .voice-button {
@@ -86,7 +122,6 @@
 
 .voice-icon {
   height: 24px;
-  margin-top: 4px;
 }
 
 .right-section {

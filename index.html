@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="youtube, YouTube, video">
     <title>YouTube</title>
+    <link rel="icon" href="assets/logos/youtube-logo-2431.svg" type="image/icon type">
 
     <link rel="stylesheet" href="styles/video.css" type="text/css">
     <link rel="stylesheet" href="styles/header.css" type="text/css">
@@ -35,18 +36,26 @@
             <input type="text" class="search-bar" placeholder="Search">
             <button class="search-button">
                 <img src="assets/icons/search.svg" class="search-icon" alt="">
+                <div class="tooltip">Search</div>
             </button>
             <button class="voice-button">
                 <img src="assets/icons/voice-search-icon.svg" class="voice-icon" alt="">
+                <div class="tooltip">Search with your voice</div>
             </button>
         </div>
         <div class="right-section">
-            <img src="assets/icons/upload.svg" alt="create" class="upload-icon">
+            <div class="upload-container">
+                <img src="assets/icons/upload.svg" alt="create" class="upload-icon">
+                <div class="tooltip">Create</div>
+            </div>
             <div class="notifications-icon-container">
                 <img src="assets/icons/notifications.svg" alt="notifications" class="notifications-icon">
                 <div class="notifications-count">6</div>
+                <div class="tooltip">Notifications</div>
             </div>
-            <img src="assets/logos/user.jpg" alt="user" class="user-logo">
+            <div class="user-container">
+                <img src="assets/logos/user.jpg" alt="user" class="user-logo">
+            </div>
         </div>
     </div>
 
