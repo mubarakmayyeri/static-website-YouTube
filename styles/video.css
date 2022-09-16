@@ -7,6 +7,30 @@
  row-gap: 40px;
 }
 
+@media  screen and (max-width: 800px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media  screen and (min-width: 801px) and (max-width: 998px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media  screen and (min-width: 999px) and (max-width: 1339px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media  screen and (min-width: 1340px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .video-preview {
 }
 
@@ -70,7 +94,6 @@
 }
 
 .video-time {
-  font-family: 'Roboto', Arial, sans-serif;
   font-weight: 500;
   font-size: 12px;
 
