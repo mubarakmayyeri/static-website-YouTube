@@ -31,7 +31,8 @@
   }
 }
 
-.video-preview {
+.video-grid a{
+  text-decoration: none;
 }
 
 .thumb-row {
