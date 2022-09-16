@@ -1,0 +1,50 @@
+.chips-wrapper {
+  height: 56px;
+
+  background-color: white;
+  margin-top: 0;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(216, 216, 216);
+
+  position: absolute;
+  top: 56px;
+  left: 230px;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.chips-wrapper button {
+  height: 32px;
+  margin: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  font-family: 'Roboto', 'Arial';
+  font-size: 14px;
+
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+  background-color: rgb(250, 250, 250);
+
+  border-width: 1px;
+  border-color: rgb(216, 216, 216);
+  border-style: solid;
+  cursor: pointer;
+}
+
+.chips-wrapper button:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+.chips-wrapper img {
+  height: 24px;
+  cursor: pointer;
+}

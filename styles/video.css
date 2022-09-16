@@ -12,6 +12,7 @@
 
 .thumb-row {
   margin-bottom: 12px;
+  position: relative;
 }
 
 .thumbnail {
@@ -39,6 +40,7 @@
 .video-info-grid {
   display: grid;
   grid-template-columns: 42px 218px 1fr;
+  position: relative;
 }
 
 .logo-div {
@@ -55,14 +57,42 @@
 }
 
 .menu-icon {
-  border: none;
-  background-color: rgb(250, 250, 250);
   cursor: pointer;
   width: 10px;
-  vertical-align: top;
+  position: absolute;
+  top: 0;
+  right: 10px;
 }
 
 .video-info-mix-grid {
   display: grid;
-  grid-template-columns: 252px 1fr;
+  grid-template-columns: 272px 1fr;
+}
+
+.video-time {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+
+  padding: 3px;
+  border-radius: 2px;
+
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+}
+
+.music-mix {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.music-logo {
+  height: 24px;
+  color: white;
 }
