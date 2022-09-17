@@ -1,6 +1,6 @@
 # YouTube Static website
 
-This is a clone of youtube.com created using HTML and CSS.
+This is a clone of youtube.com created using HTML and CSS.  
 [Visit webiste here](https://mubarakmayyeri.github.io/static-website-YouTube/)
 
 ## Project Description
@@ -11,7 +11,7 @@ This is a clone of youtube.com created using HTML and CSS.
 
 ## Resources used
 
-* **SuperSimpleDev** YT video: (https://www.youtube.com/watch?v=G3e-cpL7ofc)
-* **Brototype Malayalam** Web designing challeng playlist: (https://www.youtube.com/playlist?list=PLY-ecO2csVHfRMEmW_ltccnJcMtSGUKSk)
+* **SuperSimpleDev** YT video - https://www.youtube.com/watch?v=G3e-cpL7ofc
+* **Brototype Malayalam** Web designing challeng playlist - https://www.youtube.com/playlist?list=PLY-ecO2csVHfRMEmW_ltccnJcMtSGUKSk
 
 

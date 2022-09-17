@@ -33,6 +33,7 @@
 
 .video-grid a{
   text-decoration: none;
+  color: rgb(3, 3, 3);
 }
 
 .thumb-row {
@@ -112,7 +113,8 @@
   position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
   bottom: 5px;
-  width: 300px;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 
